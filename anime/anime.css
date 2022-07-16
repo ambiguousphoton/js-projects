@@ -1,0 +1,213 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(237, 237, 237);
+}
+
+#1div {
+    position: relative;
+}
+
+.container {
+
+    width: auto;
+    height: auto;
+}
+
+
+
+#pkmn {
+    object-fit: cover;
+    object-position: 0px 10%;
+    width: 100%;
+    height: 300px;
+}
+
+#pkmn:hover {
+    content: url('pokemon.png');
+}
+
+#textimg {
+    border: 5px solid;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: lighter;
+    box-shadow: 0px, 0px, 0px, 0px red;
+}
+
+#textimg:hover {
+    background-color: rgb(178, 119, 119, 0.5);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+
+
+}
+
+#div2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+#icon {
+    position: relative;
+    transform: translate(-50%, -50%);
+    width: 15%;
+    height: 15%;
+    border-radius: 100%;
+    box-shadow: 5px 5px 15px 0px rgba(53, 86, 119, 0.5);
+}
+
+#icon:hover {
+
+    content: url('vyoam.png');
+    width: 30%;
+    height: 30%;
+
+
+
+}
+
+#box {
+
+
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    padding: 10px;
+    margin: 50px;
+    font-size: 45px;
+    color: black;
+    font-weight: lighter;
+}
+
+h1:hover {
+    border: 10px;
+    background: rgb(255, 255, 255);
+    border-color: white;
+    border-radius: 15px;
+    color: rgb(255, 117, 117);
+
+
+}
+
+#list {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    right: 25%;
+    margin: 10px;
+    text-align: center;
+
+    color: black;
+}
+
+li {
+
+    color: brown;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+#h:hover {
+    background: rgb(255, 255, 214);
+    font-size: 35px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: rgb(103, 255, 80);
+}
+
+#hi:hover {
+    background: rgb(255, 255, 214);
+    font-size: 35px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: rgb(255, 80, 147);
+}
+
+#ho:hover {
+    background: rgb(255, 255, 214);
+    font-size: 35px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: rgb(80, 109, 255);
+}
+
+.anim {
+    width: 70%;
+    height: 70%;
+    border-radius: 3px;
+
+}
+
+.anim:hover {
+    border-radius: 15px;
+    width: 75%;
+    height: 75%;
+    background-color: rgb(248, 164, 164);
+    padding: 10px;
+}
+
+.ani {
+    width: 70%;
+    height: 70%;
+    border-radius: 3px;
+
+}
+
+.ani:hover {
+    border-radius: 15px;
+    width: 75%;
+    height: 75%;
+    background-color: rgb(0, 132, 172);
+    padding: 10px;
+}
+
+.anime {
+    width: 70%;
+    height: 70%;
+    border-radius: 3px;
+
+}
+
+.anime:hover {
+    border-radius: 15px;
+    width: 75%;
+    height: 75%;
+    background-color: rgb(180, 255, 155);
+    padding: 10px;
+}
+
+p {
+    font-size: 25px;
+    color:black;
+
+}
+
+p:hover {
+    background: white;
+    color:rgb(255, 62, 62);
+    border-radius: 15px;
+}
