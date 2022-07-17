@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+div{
+    text-align: center;
+}
+button{
+    border: none;
+    padding-top: 10;
+    padding-bottom: 10;
+    color:white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+#incbtn {
+    background: green;
+}
+#decbtn {
+    background:red;
+}
+#svbtn {
+    background: blue;
+}
