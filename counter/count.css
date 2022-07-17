@@ -1,0 +1,26 @@
+.container {
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid;
+
+}
+
+.content {
+    text-align: center;
+    padding: 5px;
+
+}
+
+
+
+#counter {
+    text-align: center;
+}
+
+#span {
+    font-size: x-large;
+}
