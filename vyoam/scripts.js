@@ -1,5 +1,5 @@
 function addMore() {
-    const god = "narayan"
+    const god = "narayan "
     let name = document.getElementById('name').value;
     if (name = '') {
         document.getElementById('error').innerHTML = "Please enter Value";
@@ -7,4 +7,5 @@ function addMore() {
     else{
         
     }
+    Chant = god + god + god + god;
 }
