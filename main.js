@@ -1,5 +1,5 @@
 // DOM Manipulation
-
+Integer = 100000000;
 // Get element by ID
 const title = document.getElementById('heading');
 console.log(title);
@@ -7,6 +7,7 @@ console.log(title);
 // Get element by Class name 
 const list = document.getElementsByClassName('list-items')
 console.log(list)
+
 
 // Get element by tag name
 const tag = document.getElementsByTagName('div');
