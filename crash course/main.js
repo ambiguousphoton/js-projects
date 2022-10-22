@@ -1,4 +1,5 @@
 // DOM Manipulation
+Int = 2300
 
 // Get element by ID
 const title = document.getElementById('heading');
