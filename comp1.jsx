@@ -1,3 +1,4 @@
+//whats clone component 1
 import React from 'react';
 import './App.css';
 
