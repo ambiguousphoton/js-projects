@@ -8,4 +8,5 @@ function addMore() {
         
     }
     Chant = god + god + god + god;
+    log(chant)
 }
