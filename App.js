@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import React, { Component } from 'react';
 import './App.css';
 import Comp from './comp1';
-
+Om = 15
 function App() {
   return (
     <div className='window'>
