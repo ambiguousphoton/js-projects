@@ -6,7 +6,7 @@ function Comp () {
     return(
      <div>
         <div>
-             vyoam
+             vyoam ji
             <img src = "./vyoam.png" alt = "" />
         </div>
         <div >
