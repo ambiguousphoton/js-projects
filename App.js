@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='window'>
       <div className='heading'>
-        Whatsapp Next
+        Whatsupp Next
       </div>
       <div className="comp1">
         <Comp/>
