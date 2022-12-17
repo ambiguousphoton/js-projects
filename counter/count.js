@@ -1,5 +1,5 @@
 //seting initial count
-let count = 0;
+let count = 18;
 
 const value = document.querySelector("#span");
 const btns = document.querySelectorAll(".btn");
