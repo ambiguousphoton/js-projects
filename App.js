@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import React, { Component } from 'react';
 import './App.css';
 import Comp from './comp1';
-Om = "."
+Om = "0"
 function App() {
   return (
     <div className='window'>
