@@ -1,0 +1,112 @@
+*{  
+
+    margin:0px;
+    padding: 0 px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgb(255, 255, 255),white);
+}
+nav{
+    width:100%;
+    height:75px;
+    box-shadow:0 2px 6px 0 rgba(33, 33, 33, 0.2), 0 3px 14px 0 rgba(176, 176, 176, 0.19);;
+    padding:7px 60px;
+    z-index: 5;
+    position: relative;
+    background-color: white;
+}
+#navl{
+    float:right;
+}
+nav li{
+    /* display: inline-block; */
+    list-style: None;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+}
+
+#main{
+    float:left;
+}
+#banner{
+    float:right;
+    /* margin-right:20px;
+    margin-top: 20px;  */
+
+    border-radius: 54px;
+    width:320px;
+    height:320px;
+    z-index: 0;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#board{
+    margin-top:12px; 
+    background-image: linear-gradient(rgb(200, 0, 47),rgb(208, 53, 53));
+    width:100%;
+    height: 360px;
+    border-radius: 12px;
+    /* margin-right: 12px;
+    margin-left:10px; */
+}
+
+
+#text{
+    float:left;
+}
+#ml{
+    margin-top: 12px;
+    margin-left: 10px;
+    z-index: -1;
+    border-radius: 9px;
+}
+#mlimg{
+    border-radius: 15px;
+    scale:0.89;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#img-box{
+    background-color: rgb(255, 247, 0);
+    width:30%;
+    float:right;
+    margin-right:20px;
+    margin-top: 18px; 
+
+    border-radius: 54px;
+    width:330px;
+    height:330px;
+    z-index: 0;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: rotate(0);
+    scale:1;
+    transition: scale 2s,transform 1s;
+}
+#banner:hover{
+    scale:1.033;
+    transform: rotate(-12deg);
+    transform-origin:20% 500%; 
+    transition: scale 2s,transform 1s, transform-origin 2s ;
+}
+
+#button{
+    -webkit-border-radius: 60px;
+    background-color: yellow;
+    font-size: 18px;
+    font-weight: bold;
+    border :none;
+    border-radius: 42px;
+    text-transform: uppercase;
+    
+    padding: 5px 15px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    padding:18px;
+}
+#button:hover{
+    box-shadow:  0 4px 8px 0 rgba(255, 247, 16, 0.416), 0 6px 20px 0 rgba(255, 247, 0, 0.19); 
+
+}
