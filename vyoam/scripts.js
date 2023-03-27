@@ -1,5 +1,5 @@
 function addMore() {
-    const god = "Narayan ";
+    const god = "Narayan Narayan";
     let name = document.getElementById('name').value;
     if (name = '') {
         document.getElementById('error').innerHTML = "Please enter Value";
