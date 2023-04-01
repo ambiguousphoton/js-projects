@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='window'>
       <div className='heading'>
-         Next Big Chat
+         Next Big Chat app
       </div>
       <div className="comp1">
         <Comp/>
