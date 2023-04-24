@@ -1,4 +1,4 @@
-//seting initial count
+//seting initial counter
 let count = 189;
 
 const value = document.querySelector("#span");
