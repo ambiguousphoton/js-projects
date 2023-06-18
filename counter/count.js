@@ -12,7 +12,7 @@ btns.forEach(function (btn) {
             count--;
         }
         else if (style.contains('super')) {
-            count++;
+            count+=1;
         }
         else {
             count = 0;
