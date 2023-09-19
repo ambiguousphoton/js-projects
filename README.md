@@ -1,1 +1,1 @@
-=:> this project contains javascript codes# js-projects
+=:> this repo contains javascript codes# js-projects
